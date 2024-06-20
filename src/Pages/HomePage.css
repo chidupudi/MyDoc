@@ -1,0 +1,129 @@
+
+
+.homepage {
+  font-family: Arial, sans-serif;
+}
+
+
+
+.c-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: #2768a9;
+  height: 67vh;
+  color:#fff
+}
+
+.img-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: auto;
+}
+
+.img-text-container img {
+  max-width: 40%;
+  height: auto;
+  border-radius: 20px;
+  max-height: 50%;
+ 
+}
+
+.text {
+  padding: 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+/* Styling for service cards */
+.services-container  {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none; /* Remove underlines */
+  color: inherit;
+  
+}
+
+.service-card1,
+.service-card2,
+.service-card3,
+.service-card4,
+.service-card5 {
+  transition: transform 2.3s, background-color 0.3s, color 0.3s;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: px;
+  margin: 10px;
+  margin-bottom: 60px;
+}
+
+.service-card1:hover,
+.service-card2:hover,
+.service-card3:hover,
+.service-card4:hover,
+.service-card5:hover {
+  transform: scale(1.05);
+  background-color: #0073e6;
+  color: #fff;
+}
+
+.img1 img {
+  
+  height: 175px;
+  width: 200px;
+  margin-left:20px ;
+  margin-right:20px ;
+  border-radius: 20px;
+}
+
+.img2 img {
+  height: 150px;
+  width: 200px;
+  margin-left:20px ;
+  margin-right:20px ;
+  border-radius: 20px;
+}
+
+.img3 img {
+  height: 150px;
+  width: 200px;
+  margin-left:20px ;
+  margin-right:20px ;
+  border-radius: 20px;
+}
+.img4 img {
+  height: 150px;
+  width: 200px;
+  margin-left:20px ;
+  margin-right:20px ;
+  border-radius: 20px;
+}
+.img5 img {
+  height: 150px;
+  width: 200px;
+  margin-left:20px ;
+  margin-right:20px ;
+  border-radius: 20px;
+}
+.crimg6,
+.crimg7,
+.crimg8,
+.crimg9 {
+  height: 200px;
+  width: 500px;
+}
+.Header2{
+  margin-left: 30px;
+}
+.services-container a {
+  text-decoration: none; /* Remove underlines */
+  color: inherit; /* Inherit the color from the parent container */
+}
+
+

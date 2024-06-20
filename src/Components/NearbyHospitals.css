@@ -1,0 +1,14 @@
+/* NearbyHospitals.css */
+.nearby-hospitals {
+  text-align: center;
+  margin: 20px;
+}
+
+.map-container {
+  height: 400px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 20px;
+}

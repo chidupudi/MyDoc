@@ -1,0 +1,58 @@
+/* GetStarted.module.css */
+
+.get-started-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+  
+  .left-container,
+  .right-container {
+    width: 45%;
+    height: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left-container h2,
+  .right-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .login-button,
+  .signup-button {
+    margin-top: 120px;
+
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+  }
+  
+  .login-button {
+    background-color: #007bff;
+    
+    color: white;
+  }
+  
+  .signup-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .login-button:hover,
+  .signup-button:hover {
+    opacity: 0.8;
+  }
+  

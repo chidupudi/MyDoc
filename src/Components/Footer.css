@@ -1,0 +1,98 @@
+/* Footer.css */
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  position: relative;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul {
+  font-size: 16px;
+  margin: 5px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-section button,
+.footer-section a {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section button:hover,
+.footer-section a:hover {
+  color: #f39c12;
+}
+
+.footer-section .emergency-button {
+  text-align: center;
+  margin-top: auto;
+  position: absolute;
+  
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.footer-section_emergency-button button {
+  background-color: #e74c3c; /* Fix the color here */
+  color: #fff;
+  font-size: 18px;
+  padding: 0px 20px;
+ 
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+.footer-section .emergency-button button:hover {
+  background-color: #c0392b;
+  
+}
+.emergency-button {
+margin-left: 680px;  
+
+}
+
+.btn-emergency {
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* Additional styling as needed */
+}
+
+.btn-emergency:hover {
+  background-color: darkred;
+}

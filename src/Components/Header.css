@@ -1,0 +1,75 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0073e6;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  width: 150px; /* Adjust the logo size as needed */
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+}
+
+.navigation li {
+  margin-right: 20px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.user-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.login-button,
+.signup-button {
+  background-color: #fff;
+  color: #0073e6;
+  border: none;
+  padding: 12px 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.login-button:hover,
+.signup-button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+
+.logout-button {
+  background-color: #fff;
+  color: #0056b3;
+  width: 90px;
+  height: 40px;
+  padding: 12px ;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  
+  
+}
+
+.btn {
+
+  transition: background-color 0.3s;
+}
+
+/* You can add more styles or modify existing ones based on your design preferences. */

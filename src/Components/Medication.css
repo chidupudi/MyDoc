@@ -1,0 +1,33 @@
+/* Medication.css */
+.medication-container {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.search-box {
+  margin-bottom: 20px;
+}
+
+.medication-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.medication-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.medication-card h2 {
+  margin-bottom: 10px;
+}
+
+.medication-card p {
+  font-size: 14px;
+  color: #555;
+}

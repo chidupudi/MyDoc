@@ -1,0 +1,300 @@
+/* Symptom.css */
+
+/* Style for the form container */
+.symptom-form {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px ;
+  text-align: left;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 100px;
+}
+
+/* Style for the form title */
+h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.symptom-form h1{
+  display: flex;
+  justify-content: center;
+}
+
+/* Style for the gender icons */
+.gender-icons {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+/* Style for the gender icon labels */
+.gender-icons label {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  color: #333;
+  transition: all 0.3s;
+  margin: 0 20px;
+}
+
+/* Hover effect for gender icon labels */
+.gender-icons label:hover {
+  transform: scale(1.05);
+}
+
+/* Style for gender icon images */
+.gender-icons label img {
+  width: 60px;
+  height: 60px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+/* Style for selected gender icon label */
+label input[type="radio"] {
+  display: none;
+}
+
+label input[type="radio"]:checked + div {
+  border: 2px solid #007BFF;
+  
+  color: #fff;
+  transform: scale(1.03);
+}
+
+label input[type="radio"]:checked + div img {
+  filter: grayscale(0%);
+}
+
+/* Style for age input */
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Style for symptoms checkboxes */
+.symptoms {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+/* Style for symptom labels */
+.symptoms label {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+/* Hover effect for symptom labels */
+.symptoms label:hover {
+  transform: scale(1.05);
+}
+
+/* Style for symptom checkboxes */
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Style for physical description dropdown */
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Style for pain percentage range input */
+input[type="range"] {
+  width: 100%;
+  margin: 10px 0;
+}
+
+/* Style for duration input */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Style for the submit button */
+button[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+
+/* Style for the gender icon labels */
+.gender-icons label {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  color: #333;
+  transition: all 0.3s;
+  margin: 0 20px;
+  border: 2px solid transparent; /* Initial border to create the outline effect */
+  border-radius: 50%; /* Make it circular */
+}
+
+
+.gender-icons label img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+/* Style for selected gender icon label */
+label input[type="radio"] {
+  display: none;
+}
+
+label input[type="radio"]:checked + div {
+  border: 2px solid #007BFF;
+  border-radius: 50%;
+  transform: scale(1.03);
+}
+
+label input[type="radio"]:checked + div img {
+  filter: grayscale(0%);
+}
+.input[type="number"] {
+  width: 30%; /* Adjust the width to your preference */
+  padding: 10px;
+  margin: 10px 50px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.ageIN{
+  width: 30%;
+}
+/* Add this to your existing CSS */
+
+/* Style for pain intensity radio buttons */
+.pain-intensity-radio {
+  display: flex;
+  margin: 10px 0;
+}
+
+.pain-intensity-radio label {
+  margin-right: 10px;
+}
+
+.pain-intensity-radio input {
+  margin-right: 5px;
+}
+/* Symptom.css */
+
+/* ... (existing styles) */
+
+/* Style for pain intensity radio buttons */
+.pain-intensity-radio {
+  display: flex;
+  margin: 10px 0;
+}
+
+.pain-intensity-radio label {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  padding: 8px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+/* Hover effect for pain intensity labels */
+.pain-intensity-radio label:hover {
+  background-color: #f0f0f0;
+}
+
+/* Style for pain intensity radio button */
+.pain-intensity-radio input {
+  margin-right: 5px;
+  display: none; /* Hide the actual radio button */
+}
+
+/* Style for selected pain intensity label */
+.pain-intensity-radio label.selected {
+  background-color: #007BFF;
+  color: blue;
+  border-color: #007BFF;
+}
+
+/* Style for selected pain intensity radio button */
+.pain-intensity-radio input:checked + label {
+  background-color: #007BFF;
+  color: blue;
+  border-color: #007BFF;
+}
+.pain-intensity-radio {
+  display: flex;
+  margin: 10px 0;
+}
+
+.pain-intensity-radio label {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  padding: 8px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+/* Hover effect for pain intensity labels */
+.pain-intensity-radio label:hover {
+  background-color: #f0f0f0;
+}
+
+/* Style for pain intensity radio button */
+.pain-intensity-radio input {
+  margin-right: 5px;
+  display: none; /* Hide the actual radio button */
+}
+
+/* Style for selected pain intensity label */
+.pain-intensity-radio label.selected {
+  background-color: #007BFF;
+  color: white;
+  border-color: #007BFF;
+}
+
+/* Style for selected pain intensity radio button */
+.pain-intensity-radio input:checked + label {
+  background-color: #007BFF;
+  color: white;
+  border-color: #007BFF;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}

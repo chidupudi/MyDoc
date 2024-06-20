@@ -1,0 +1,63 @@
+/* Services.css */
+
+.services-container {
+  max-width: 100%;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.services-title {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column; /* Set flex direction to column */
+  align-items: flex-start; /* Align items to the left */
+  gap: 20px;
+}
+
+.service-card {
+  height: auto;
+  margin-left: 40px;
+  
+  width: 1300px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  display: flex; /* Use flexbox to arrange items horizontally */
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.service-description {
+  flex: 1; /* Take remaining space */
+  padding: 20px;
+}
+
+.service-description h2 {
+  font-size: 20px;
+  color: #333;
+}
+
+.service-description p {
+  font-size: 16px;
+  color: #555;
+}
+
+.service-image {
+  width: 40%; /* Adjust the width as needed */
+  overflow: hidden;
+}
+
+.service-image img {
+  width: 100%;
+  height: auto;
+}
